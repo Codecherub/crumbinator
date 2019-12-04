@@ -1,16 +1,21 @@
 # crumbinator
-Extremely lightweight JavaScript real-time pagination
+An Extremely lightweight JavaScript function 
+for real-time  front-end pagination.
 
-crumbinator is simple light-weight(4kb) javascript function made for 
+
+
+
+
+
+# introduction
+crumbinator is a simple light-weight(2kb) javascript function made for 
 paging html elements
+the crumbinator function * crumbinate() * has three major parameters
 
 # Dependencies
 jquery 1.** or later
 
-
-# introduction
-the crumbinator function * crumbinate() * has three major parameters
-
+# Singular function
 ```
 1. elements - the elements parameter selects html elements with the indicated class
 2. buttoncontainer - indicates where page link buttons are appended
@@ -24,6 +29,9 @@ the crumbinator function * crumbinate() * has three major parameters
 - crumbinate(elementsclass,buttoncontainerclass,divider);
 
 ```
+
+# Demo
+<iframe src="http://host24.epizy.com/crumb.html"></iframe>
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
