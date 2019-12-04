@@ -15,4 +15,5 @@ the crumbinator function * crumbinate() * has three major parameters
 3. divider - this is the total elements which are meant to be seen per page
 
 # usage
-crumbinate(elementsclass,buttoncontainerclass,divider);
+- include jquery & crumbinate js  in project
+- <script>crumbinate(elementsclass,buttoncontainerclass,divider);</script>
