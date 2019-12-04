@@ -31,7 +31,7 @@ jquery 1.** or later
 ```
 
 # Demo
-<iframe src="http://demosforme.rf.gd" width="100%" height="500px"></iframe>
+<iframe src="http://demosforme.rf.gd" width="100%" height="500px" style="border:none;"></iframe>
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
