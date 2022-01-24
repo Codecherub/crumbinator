@@ -72,14 +72,14 @@
     <br/>
     <div class="btn"></div>
 </body>
-<script src="./jquery.js"></script>
-<script src="./crumbinator.js"></script>
-<script>
-    crumbinate('app','btn',5);
-</script>
+<script src="https://raw.githubusercontent.com/Codecherub/crumbinator/Crumbinator-2/crumbinator.js"></script>
 
 <!-- for demo purposes -->
 <script>
-    $('.app').prepend('element ');
+    var data = {
+      'items':'app'
+    }
+    crumbinator.build(data)
+
 </script>
 </html>
