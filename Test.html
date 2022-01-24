@@ -1,85 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Crumbinator Demo</title>
-    <style>
-        @media(min-width: 769px){
-            body{
-                padding: 20px 300px;
-            }
-        }
-        .app {
-            padding: 20px ;
-            margin: 4px 10px;
-            border: 1px solid rgb(223, 218, 218);
-        }
-        .btn {
-            padding: 15px;
-        }
-        .btn button{
-            background: rgb(154, 63, 240);
-            color: #fff;
-            padding: 10px;
-            border: none;
-            cursor: pointer;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Crumbinator Demo</title>
+  <style>
+@media(min-width: 769px) {
+    body {
+      padding: 20px 300px;
+    }
+  }
+    .app {
+      padding: 20px;
+      margin: 4px 10px;
+      border: 1px solid rgb(223, 218, 218);
+    }
+    .btn {
+      padding: 15px;
+    }
+    .btn button {
+      background: rgb(154, 63, 240);
+      color: #fff;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
-    <div class="app" id="crumb-1">one</div>
-    <div class="app" id="crumb-2">two</div>
-    <div class="app" id="crumb-3">three</div>
-    <div class="app" id="crumb-4">four</div>
-    <div class="app" id="crumb-5">five</div>
-    <div class="app" id="crumb-6">six</div>
-    <div class="app" id="crumb-7">seven</div>
-    <div class="app" id="crumb-8">eight</div>
-    <div class="app" id="crumb-9">nine</div>
-    <div class="app" id="crumb-10">ten</div>
-    <div class="app" id="crumb-11">eleven</div>
-    <div class="app" id="crumb-12">twelve</div>
-    <div class="app" id="crumb-13">thirteen</div>
-    <div class="app" id="crumb-14">fourteen</div>
-    <div class="app" id="crumb-15">fivteen</div>
-    <div class="app" id="crumb-16">sixteen</div>
-    <div class="app" id="crumb-17">seventeen</div>
-    <div class="app" id="crumb-18">eighteen</div>
-    <div class="app" id="crumb-19">nineteen</div>
-    <div class="app" id="crumb-20">twenty</div>
-    <div class="app" id="crumb-21">twenty one</div>
-    <div class="app" id="crumb-22">twenty two</div>
-    <div class="app" id="crumb-23">twenty three</div>
-    <div class="app" id="crumb-24">twenty four</div>
-    <div class="app" id="crumb-25">twenty five</div>
-    <div class="app" id="crumb-26">twenty six</div>
-    <div class="app" id="crumb-27">twenty seven</div>
-    <div class="app" id="crumb-28">twenty eight</div>
-    <div class="app" id="crumb-29">twenty nine</div>
-    <div class="app" id="crumb-30">thirty</div>
-    <div class="app" id="crumb-31">thirty one</div>
-    <div class="app" id="crumb-32">thirty two</div>
-    <div class="app" id="crumb-33">thirty three</div>
-    <div class="app" id="crumb-34">thirty four</div>
-    <div class="app" id="crumb-35">thirty five</div>
-    <div class="app" id="crumb-36">thirty six</div>
-    <div class="app" id="crumb-37">thirty seven</div>
-    <div class="app" id="crumb-38">thirty eight</div>
-    
-    <br/>
-    <br/>
-    <div class="btn"></div>
+  <div class="app" id="crumb-1">
+    one
+  </div>
+  <div class="app" id="crumb-2">
+    two
+  </div>
+  <div class="app" id="crumb-3">
+    three
+  </div>
+  <div class="app" id="crumb-4">
+    four
+  </div>
+  <div class="app" id="crumb-5">
+    five
+  </div>
+  <div class="app" id="crumb-6">
+    six
+  </div>
+  <div class="app" id="crumb-7">
+    seven
+  </div>
+  <div class="app" id="crumb-8">
+    eight
+  </div>
+  <div class="app" id="crumb-9">
+    nine
+  </div>
+  <div class="app" id="crumb-10">
+    ten
+  </div>
+  <div class="app" id="crumb-11">
+    eleven
+  </div>
+  <div class="app" id="crumb-12">
+    twelve
+  </div>
+  <div class="app" id="crumb-13">
+    thirteen
+  </div>
+  <div class="app" id="crumb-14">
+    fourteen
+  </div>
+  <div class="app" id="crumb-15">
+    fivteen
+  </div>
+  <div class="app" id="crumb-16">
+    sixteen
+  </div>
+  <div class="app" id="crumb-17">
+    seventeen
+  </div>
+  <div class="app" id="crumb-18">
+    eighteen
+  </div>
+  <div class="app" id="crumb-19">
+    nineteen
+  </div>
+  <div class="app" id="crumb-20">
+    twenty
+  </div>
+  <div class="app" id="crumb-21">
+    twenty one
+  </div>
+  <div class="app" id="crumb-22">
+    twenty two
+  </div>
+  <div class="app" id="crumb-23">
+    twenty three
+  </div>
+  <div class="app" id="crumb-24">
+    twenty four
+  </div>
+  <div class="app" id="crumb-25">
+    twenty five
+  </div>
+  <div class="app" id="crumb-26">
+    twenty six
+  </div>
+  <div class="app" id="crumb-27">
+    twenty seven
+  </div>
+  <div class="app" id="crumb-28">
+    twenty eight
+  </div>
+  <div class="app" id="crumb-29">
+    twenty nine
+  </div>
+  <div class="app" id="crumb-30">
+    thirty
+  </div>
+  <div class="app" id="crumb-31">
+    thirty one
+  </div>
+  <div class="app" id="crumb-32">
+    thirty two
+  </div>
+  <div class="app" id="crumb-33">
+    thirty three
+  </div>
+  <div class="app" id="crumb-34">
+    thirty four
+  </div>
+  <div class="app" id="crumb-35">
+    thirty five
+  </div>
+  <div class="app" id="crumb-36">
+    thirty six
+  </div>
+  <div class="app" id="crumb-37">
+    thirty seven
+  </div>
+  <div class="app" id="crumb-38">
+    thirty eight
+  </div>
+
+  <br />
+  <br />
+  <div class="btn"></div>
 </body>
-<script src="https://raw.githubusercontent.com/Codecherub/crumbinator/Crumbinator-2/crumbinator.js"></script>
+<script src="https://raw.githubusercontent.com/Codecherub/crumbinator/f06ca8c912748769da2a14aff360f73812711c78/crumbinator.js"></script>
 
 <!-- for demo purposes -->
 <script>
-    var data = {
-      'items':'app'
-    }
-    crumbinator.build(data)
+  var data = {
+    'items': 'app'
+  }
+  crumbinator.build(data)
 
 </script>
 </html>
